@@ -3,8 +3,8 @@
 [![license](https://img.shields.io/github/license/marinko-peso/time-now-custom-element.svg)](https://github.com/marinko-peso/time-now-custom-element/blob/master/LICENSE)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/Flet/semistandard)
 
-Show updated current time in an html element
-Work in progress.
+Show updated current time in an html element. Date and time will automatically refresh every second.
+
 
 
 ## Usage
