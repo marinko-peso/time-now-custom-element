@@ -6,6 +6,7 @@ class TimeNowElement extends HTMLElement {
     constructor() {
         super();
         this.pollingObj = null;
+
         this.months = [
             'January',
             'February',
@@ -20,11 +21,22 @@ class TimeNowElement extends HTMLElement {
             'November',
             'December'
         ];
+        this.days = [
+            'Sunday',
+            'Monday',
+            'Tuesday',
+            'Wednesday',
+            'Thursday',
+            'Friday',
+            'Saturday'
+        ];
+
         this.rules = {
             Y: 'year',
             M: 'monthNum',
             B: 'monthName',
             D: 'dayNum',
+            C: 'dayName',
             h: 'hours',
             m: 'minutes',
             s: 'seconds'
@@ -56,6 +68,7 @@ class TimeNowElement extends HTMLElement {
             monthNum: d.getMonth().toString().padStart(2, '0'),
             monthName: this.months[d.getMonth()],
             dayNum: d.getDate().toString().padStart(2, '0'),
+            dayName: this.days[d.getDay()],
             hours: d.getHours().toString().padStart(2, '0'),
             minutes: d.getMinutes().toString().padStart(2, '0'),
             seconds: d.getSeconds().toString().padStart(2, '0')
