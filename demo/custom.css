@@ -1,0 +1,13 @@
+body {
+    font-family: 'K2D', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+x-time-now {
+    color: #505050;
+}
