@@ -1,7 +1,15 @@
 class TimeNowElement extends HTMLElement {
+    static get observedAttributes() {
+        return ['format'];
+      }
+
     constructor() {
         super();
         this.pollingObj = null;
+    }
+
+    get format() {
+        return this.getAttribute('format') || 'Y-M-D H:M:S';
     }
 
     connectedCallback() {
@@ -20,14 +28,22 @@ class TimeNowElement extends HTMLElement {
 
     get formattedTime() {
         const d = new Date();
-        const year = d.getFullYear();
+        const year = d.getFullYear().toString();
         const monthNum = d.getMonth().toString().padStart(2, '0');
         const dayNum = d.getDate().toString().padStart(2, '0');
         const hours = d.getHours().toString().padStart(2, '0');
         const minutes = d.getMinutes().toString().padStart(2, '0');
         const seconds = d.getSeconds().toString().padStart(2, '0');
 
-        return `${year}-${monthNum}-${dayNum} ${hours}:${minutes}:${seconds}`;
+        let date = this.format;
+        date = date.replace('Y', year);
+        date = date.replace('M', monthNum);
+        date = date.replace('D', dayNum);
+        date = date.replace('H', hours);
+        date = date.replace('M', minutes);
+        date = date.replace('S', seconds);
+
+        return date;
     }
 }
 
