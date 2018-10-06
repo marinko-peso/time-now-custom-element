@@ -16,6 +16,7 @@ Include the ```now-element.js``` in your html page and simply add ```<x-time-now
 - ```m```: minutes number (example: 55)
 - ```s```: seconds number (example:12)
 
+Default format: ```Y-M-D h:m:s``` which yields: ```2018-09-07-Sunday 01:42:34```
 
 ## License
 
