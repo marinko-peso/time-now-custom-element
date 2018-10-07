@@ -1,6 +1,6 @@
 {
   "name": "time-now-custom-element",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Show updated current time in an html element. Date and time will automatically refresh every second.",
   "main": "now-element.js",
   "scripts": {
