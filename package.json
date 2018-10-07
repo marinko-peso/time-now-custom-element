@@ -1,0 +1,27 @@
+{
+  "name": "time-now-custom-element",
+  "version": "0.0.0",
+  "description": "Show updated current time in an html element. Date and time will automatically refresh every second.",
+  "main": "now-element.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinko-peso/time-now-custom-element.git"
+  },
+  "keywords": [
+    "current",
+    "time",
+    "now",
+    "custom",
+    "html",
+    "element"
+  ],
+  "author": "Marinko Peso <marinko.peso@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marinko-peso/time-now-custom-element/issues"
+  },
+  "homepage": "https://github.com/marinko-peso/time-now-custom-element#readme"
+}
