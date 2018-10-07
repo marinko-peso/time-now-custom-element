@@ -4,7 +4,8 @@
   "description": "Show updated current time in an html element. Date and time will automatically refresh every second.",
   "main": "now-element.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "np --yolo"
   },
   "repository": {
     "type": "git",
