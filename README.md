@@ -6,7 +6,7 @@
 [![install size](https://packagephobia.now.sh/badge?p=time-now-custom-element)](https://packagephobia.now.sh/result?p=time-now-custom-element)
 [![dependecies](https://david-dm.org/marinko-peso/time-now-custom-element.svg)](https://david-dm.org/marinko-peso/time-now-custom-element)
 
-Show updated current time in an html element. Date and time will automatically refresh every second.
+🕐 Show updated current time in an html element. Date and time will automatically refresh every second.
 
 Demo available [here](https://htmlpreview.github.io/?https://github.com/marinko-peso/time-now-custom-element/blob/master/demo/index.html).
 
