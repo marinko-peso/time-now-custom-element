@@ -8,11 +8,15 @@
 
 Show updated current time in an html element. Date and time will automatically refresh every second.
 
+Demo available [here](https://htmlpreview.github.io/?https://github.com/marinko-peso/time-now-custom-element/blob/master/demo/index.html).
+
+
 
 ## Install 
 
 Available via npm:
 ```npm i time-now-custom-element```
+
 
 
 ## Usage
@@ -29,6 +33,7 @@ Install via npm or include the ```now-element.js``` in your html page and simply
 - ```s```: seconds number (example:12)
 
 Default format: ```Y-M-D h:m:s``` which yields: ```2018-09-07-Sunday 01:42:34```
+
 
 
 ## License
